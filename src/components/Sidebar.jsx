@@ -9,7 +9,7 @@ const Sidebar = () => {
 	const { currentUser } = useContext(AuthContext)
 
 	return (
-		<div className="bg-zinc-800 p-4 space-y-3">
+		<aside className="bg-zinc-800 p-4 space-y-3">
 			<header className="flex justify-between text-white">
 				<div className="flex gap-x-2 items-center">
 					<img
@@ -31,7 +31,7 @@ const Sidebar = () => {
 			<Search />
 
 			<Chats />
-		</div>
+		</aside>
 	)
 }
 

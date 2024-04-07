@@ -104,7 +104,7 @@ const Register = () => {
 
 				<p className="text-center space-x-1">
 					<span>You have an account?</span>
-					<Link to="/register" className="text-blue-500 hover:underline">
+					<Link to="/login" className="text-blue-500 hover:underline">
 						Login
 					</Link>
 				</p>

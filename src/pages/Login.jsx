@@ -22,7 +22,7 @@ const Login = () => {
 	return (
 		<section className="bg-blue-500 h-screen grid place-content-center">
 			<div className="bg-slate-100 px-10 py-5 rounded-md space-y-5">
-				<p className="text-3xl font-medium text-center">Login</p>
+				<h3 className="text-3xl font-medium text-center">Login</h3>
 
 				<form onSubmit={handleSubmit} className="grid gap-y-5">
 					<input
