@@ -1,4 +1,4 @@
 const Search = () => {
-	return <h1>Search</h1>
+	return <form>Search</form>
 }
 export default Search
